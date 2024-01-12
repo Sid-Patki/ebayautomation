@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-11T18:18:27 IST" name="Default suite" finished-at="2024-01-11T18:19:28 IST" duration-ms="61540">
+    <groups>
+    </groups>
+    <test started-at="2024-01-11T18:18:27 IST" name="Default test" finished-at="2024-01-11T18:19:28 IST" duration-ms="61540">
+      <class name="automation.ebay.testrunner.loginpagerunner">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042]" started-at="2024-01-11T18:18:27 IST" name="beforesuite" finished-at="2024-01-11T18:18:27 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042]" started-at="2024-01-11T18:18:27 IST" name="setup" finished-at="2024-01-11T18:18:39 IST" duration-ms="12742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Username_test_2()[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042]" started-at="2024-01-11T18:18:39 IST" name="Username_test_2" finished-at="2024-01-11T18:18:47 IST" duration-ms="7236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username_test_2 -->
+        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042]" started-at="2024-01-11T18:18:47 IST" name="teardownmethod" finished-at="2024-01-11T18:18:48 IST" duration-ms="963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Username_test_2 status=SUCCESS method=loginpagerunner.Username_test_2()[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownmethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042]" started-at="2024-01-11T18:18:48 IST" name="setup" finished-at="2024-01-11T18:18:59 IST" duration-ms="11617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonsignin_test_1()[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042]" started-at="2024-01-11T18:18:59 IST" name="clickonsignin_test_1" finished-at="2024-01-11T18:19:07 IST" duration-ms="8193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonsignin_test_1 -->
+        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042]" started-at="2024-01-11T18:19:07 IST" name="teardownmethod" finished-at="2024-01-11T18:19:08 IST" duration-ms="783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickonsignin_test_1 status=SUCCESS method=loginpagerunner.clickonsignin_test_1()[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownmethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042]" started-at="2024-01-11T18:19:08 IST" name="setup" finished-at="2024-01-11T18:19:19 IST" duration-ms="10549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="password_test_3()[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042]" started-at="2024-01-11T18:19:19 IST" name="password_test_3" finished-at="2024-01-11T18:19:27 IST" duration-ms="8696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password_test_3 -->
+        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042]" started-at="2024-01-11T18:19:27 IST" name="teardownmethod" finished-at="2024-01-11T18:19:28 IST" duration-ms="700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=password_test_3 status=SUCCESS method=loginpagerunner.password_test_3()[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownmethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:automation.ebay.testrunner.loginpagerunner@2cae1042]" started-at="2024-01-11T18:19:28 IST" name="teardown" finished-at="2024-01-11T18:19:29 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- automation.ebay.testrunner.loginpagerunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

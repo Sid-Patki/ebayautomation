@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import automation.ebay.resuablemethod.helpermethods;
 import automation.ebay.uistore.Loginpageobjectui;
+import automation.ebay.uistore.Searchpageui;
 
 public class loginpageobject extends helpermethods {
 
@@ -39,6 +40,11 @@ public class loginpageobject extends helpermethods {
 		clickonpasswordtextbox.click();
 		clickonpasswordtextbox.sendKeys("Hoby86#1");
 		click(Loginpageobjectui.clickonsignbutton,"");
+		WebElement searchitem = driver.findElement(Searchpageui.Searchbuttontexbox);
+		searchitem.sendKeys("Dell Laptop");
+		WebElement clicksearch = driver.findElement(Searchpageui.Searchbutton);
+		clicksearch.click();
+	
 
 	}
 

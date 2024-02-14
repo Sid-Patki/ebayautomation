@@ -26,7 +26,7 @@ public class Baserunner {
 	public static Logger log = LogManager.getLogger(Baserunner.class);
 
 	@BeforeSuite
-	public void beforesuite() {
+	public void beforesuite(){
 		launch = new ReadpropertyConfigfile();
 		browser = new BaseClass();
 		log.info("Initializing All the methods");
@@ -48,6 +48,15 @@ public class Baserunner {
 		MediaEntityBuilder.createScreenCaptureFromPath(Readscreenshot.captureScreenShot(driver)).build());
 			log.warn("This test Failed" +ebayresult.getName()+"Captured Screenshot" );
 		}
+		
+
+		if (ebayresult.getStatus()==ITestResult.SUCCESS) {
+			execution.test.pass(ebayresult.getName()+"Test Pass",
+		MediaEntityBuilder.createScreenCaptureFromPath(Readscreenshot.captureScreenShot(driver)).build());
+			log.warn("This test Failed" +ebayresult.getName()+"Captured Screenshot" );
+		}
+		
+		
 		execution.extent.flush();
 		driver.close();
 	}

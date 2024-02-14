@@ -2,6 +2,7 @@ package automation.ebay.resuablemethod;
 import java.io.File;
 import java.time.Duration;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -63,7 +64,18 @@ public void extentreport () {
     		a.moveToElement(driver.findElement(path)).contextClick().build().perform();
     	}
 
+        
+        public void highlight(By path) {
+        	
+        	JavascriptExecutor yellowhighlight = (JavascriptExecutor) driver;
+        	yellowhighlight.executeAsyncScript("arguments[0].setAttribute('style','background:yellow;')", driver.findElement(path));
+        }
        
+        public void justclick(By path) {
+        	
+        	driver.findElement(path).click();
+        }
+        
 }
 
 

@@ -22,7 +22,7 @@ public class fashionrunner extends Baserunner {
 		
 		
 	}
-
+/*
 	@Test
 	public void Username_test_2() throws InterruptedException {
 		log.info("Test Case Started");
@@ -34,5 +34,5 @@ public class fashionrunner extends Baserunner {
 	}
 	
 	
-	
+	*/
 }

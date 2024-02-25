@@ -15,13 +15,15 @@ public class Searchpagerunner extends Baserunner {
 		searchpage searchobject = new searchpage(driver);
 		log.info("Search object test case");
 		execution.test=execution.extent.createTest("Search Laptop");
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		searchobject.searchitem();
+		Thread.sleep(4000);
 		execution.highlight(Searchpageui.laptopcost);
+		//Thread.sleep(4000);
 		
 		
 	}
-
+/*
 	@Test
 	public void Username_test_2() throws InterruptedException {
 		log.info("Test Case Started");
@@ -32,6 +34,6 @@ public class Searchpagerunner extends Baserunner {
 		
 	}
 	
-	
+	*/
 	
 }

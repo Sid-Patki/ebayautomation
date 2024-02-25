@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-14T07:23:37 IST" name="Default suite" finished-at="2024-02-14T07:24:03 IST" duration-ms="25830">
+  <suite started-at="2024-02-25T12:44:33 IST" name="Suite" finished-at="2024-02-25T12:44:56 IST" duration-ms="23009">
     <groups>
     </groups>
-    <test started-at="2024-02-14T07:23:37 IST" name="Default test" finished-at="2024-02-14T07:24:03 IST" duration-ms="25830">
+    <test started-at="2024-02-25T12:44:33 IST" name="Test" finished-at="2024-02-25T12:44:56 IST" duration-ms="23009">
       <class name="automation.ebay.testrunner.fashionrunner">
-        <test-method is-config="true" signature="beforesuite()[pri:0, instance:automation.ebay.testrunner.fashionrunner@f667fe]" started-at="2024-02-14T07:23:37 IST" name="beforesuite" finished-at="2024-02-14T07:23:37 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:automation.ebay.testrunner.fashionrunner@2b5825fa]" started-at="2024-02-25T12:44:33 IST" name="beforesuite" finished-at="2024-02-25T12:44:33 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:automation.ebay.testrunner.fashionrunner@f667fe]" started-at="2024-02-14T07:23:37 IST" name="setup" finished-at="2024-02-14T07:23:49 IST" duration-ms="11652" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:automation.ebay.testrunner.fashionrunner@2b5825fa]" started-at="2024-02-25T12:44:33 IST" name="setup" finished-at="2024-02-25T12:44:41 IST" duration-ms="8769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="fashion_test_1()[pri:0, instance:automation.ebay.testrunner.fashionrunner@f667fe]" started-at="2024-02-14T07:23:49 IST" name="fashion_test_1" finished-at="2024-02-14T07:24:00 IST" duration-ms="11823" status="PASS">
+        <test-method signature="fashion_test_1()[pri:0, instance:automation.ebay.testrunner.fashionrunner@2b5825fa]" started-at="2024-02-25T12:44:41 IST" name="fashion_test_1" finished-at="2024-02-25T12:44:52 IST" duration-ms="10830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fashion_test_1 -->
-        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:automation.ebay.testrunner.fashionrunner@f667fe]" started-at="2024-02-14T07:24:00 IST" name="teardownmethod" finished-at="2024-02-14T07:24:03 IST" duration-ms="2316" status="PASS">
+        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:automation.ebay.testrunner.fashionrunner@2b5825fa]" started-at="2024-02-25T12:44:52 IST" name="teardownmethod" finished-at="2024-02-25T12:44:56 IST" duration-ms="3362" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=fashion_test_1 status=SUCCESS method=fashionrunner.fashion_test_1()[pri:0, instance:automation.ebay.testrunner.fashionrunner@f667fe] output={null}]]]>
+                <![CDATA[[TestResult name=fashion_test_1 status=SUCCESS method=fashionrunner.fashion_test_1()[pri:0, instance:automation.ebay.testrunner.fashionrunner@2b5825fa] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownmethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:automation.ebay.testrunner.fashionrunner@f667fe]" started-at="2024-02-14T07:24:03 IST" name="teardown" finished-at="2024-02-14T07:24:03 IST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:automation.ebay.testrunner.fashionrunner@2b5825fa]" started-at="2024-02-25T12:44:56 IST" name="teardown" finished-at="2024-02-25T12:44:56 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- automation.ebay.testrunner.fashionrunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
